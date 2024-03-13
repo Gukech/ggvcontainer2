@@ -1,0 +1,1 @@
+docker run --hostname=affe826724b7 --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --env=NGINX_VERSION=1.25.4 --env=NJS_VERSION=0.8.3 --env=PKG_RELEASE=1~bookworm -p 80:80 --restart=no --label='maintainer=NGINX Docker Maintainers <docker-maint@nginx.com>' --runtime=runc -d nginx
